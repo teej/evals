@@ -6,3 +6,24 @@ chess.match.dev.v0:
   class: evals.elsuite.basic.fuzzy_match:FuzzyMatch
   args:
     samples_jsonl: chess/match.jsonl
+chess-lichess-opening:
+  id: chess.lichess.opening.dev.v0
+  description: Test test test
+chess.lichess.opening.dev.v0:
+  class: evals.elsuite.basic.fuzzy_match:FuzzyMatch
+  args:
+    samples_jsonl: chess/lichess-opening.jsonl
+chess-lichess-middlegame:
+  id: chess.lichess.middlegame.dev.v0
+  description: Test test test
+chess.lichess.middlegame.dev.v0:
+  class: evals.elsuite.basic.fuzzy_match:FuzzyMatch
+  args:
+    samples_jsonl: chess/lichess-middlegame.jsonl
+chess-lichess-endgame:
+  id: chess.lichess.endgame.dev.v0
+  description: Test test test
+chess.lichess.endgame.dev.v0:
+  class: evals.elsuite.basic.fuzzy_match:FuzzyMatch
+  args:
+    samples_jsonl: chess/lichess-endgame.jsonl

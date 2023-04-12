@@ -1,0 +1,5 @@
+chess-all:
+  evals:
+    - chess-lichess-opening
+    - chess-lichess-middlegame
+    - chess-lichess-endgame
